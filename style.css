@@ -12,3 +12,14 @@ body {
     height: 300px; /* Set height to 50% of the viewport */
     overflow: hidden;
 }
+.hero-section {
+    position: relative;
+    height: 300px; /* Adjust as needed */
+    overflow: hidden;
+}
+.carousel-item {
+    height: 100%;
+}
+.carousel-item active{
+    height: 100%;
+}
