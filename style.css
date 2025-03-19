@@ -21,3 +21,8 @@ body {
     height: 25vh; /* 25% of the viewport height */
     object-fit: cover; /* Ensures the image scales properly */
 }
+/* Services Section */
+#services i {
+    color: #007bff;
+    margin-bottom: 10px;
+}
