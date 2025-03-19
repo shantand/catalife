@@ -17,9 +17,7 @@ body {
     height: 300px; /* Adjust as needed */
     overflow: hidden;
 }
-.carousel-item {
+.carousel-item img {
     height: 100%;
-}
-.carousel-item active{
-    height: 100%;
+    object-fit: cover;
 }
