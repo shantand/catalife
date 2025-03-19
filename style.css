@@ -1,1 +1,27 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
 
+/* Hero Section */
+.hero {
+    background: url('https://source.unsplash.com/1600x900/?technology') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Services Section */
+#services i {
+    color: #007bff;
+    margin-bottom: 10px;
+}
