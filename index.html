@@ -66,8 +66,7 @@
     <script>
     const images = [
         'images/pharmacy1.png',
-        'images/pharmacy2.png',
-        'images/pharmacy3.png'
+        'images/pharmacy2.png'
     ];
     
     let index = 0;
@@ -76,7 +75,7 @@
         index = (index + 1) % images.length;
     }
 
-    setInterval(changeBackground, 3000); // Change every 3 seconds
+    setInterval(changeBackground, 10000); // Change every 3 seconds
     changeBackground(); // Load first image
     </script>
 </body>
