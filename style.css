@@ -16,16 +16,6 @@ body {
     transition: background-image 1s ease-in-out;
 }
 
-.hero h1 {
-    font-size: 3rem;
-    font-weight: bold;
-}
-
-.hero p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
-
 /* Services Section */
 #services i {
     color: #007bff;
