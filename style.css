@@ -12,9 +12,3 @@ body {
     height: 300px; /* Set height to 50% of the viewport */
     overflow: hidden;
 }
-
-/* Services Section */
-#services i {
-    color: #007bff;
-    margin-bottom: 10px;
-}
