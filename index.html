@@ -3,35 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-key.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="bg-primary text-white py-3">
-        <div class="container d-flex justify-content-between align-items-center">
-            <h1>About Me</h1>
-            <nav>
-                <ul class="nav">
-                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="courses.html">Courses</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">MyBrand</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                 </ul>
-            </nav>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container text-center">
+            <h1>Welcome to My Website</h1>
+            <p>Your one-stop solution for awesome services.</p>
+            <a href="#services" class="btn btn-primary">Explore More</a>
         </div>
     </header>
-    
-    <section class="container text-center py-5">
-        <h2>Who I Am</h2>
-        <p class="lead">I am a passionate individual dedicated to learning and sharing knowledge.</p>
-        <img src="images/about-image.jpg" class="img-fluid rounded" alt="About Image">
+
+    <!-- Services Section -->
+    <section id="services" class="container text-center py-5">
+        <h2>Our Services</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <i class="fas fa-cogs fa-3x"></i>
+                <h3>Service One</h3>
+                <p>We provide amazing services for your business.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fas fa-chart-line fa-3x"></i>
+                <h3>Service Two</h3>
+                <p>Boost your productivity with our innovative solutions.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fas fa-headset fa-3x"></i>
+                <h3>Service Three</h3>
+                <p>24/7 customer support to assist you anytime.</p>
+            </div>
+        </div>
     </section>
-    
+
+    <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2025 My Personal Website. All Rights Reserved.</p>
+        <p>&copy; 2025 My Website. All Rights Reserved.</p>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
