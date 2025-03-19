@@ -1,35 +1,35 @@
+/* Ensure body has no extra margins */
 body {
     font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* Hero Section */
-.hero-section {
+.hero {
     position: relative;
-    height: 50vh; /* Set to 50% of the viewport height */
+    width: 100%;
+    height: 50vh; /* Set height to 50% of the viewport */
     overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-/* Make Carousel Background */
-.hero-section .carousel {
+/* Make Carousel Cover Background */
+.hero-section {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 0;
 }
 
-/* Ensure Images Cover the Background */
+/* Carousel Image Styling */
 .hero-section .carousel-item img {
-    height: 100%;
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
-/* Overlay Text Styling */
+/* Overlay Text */
 .hero-text {
     position: absolute;
     top: 50%;
@@ -40,8 +40,8 @@ body {
     font-size: 2rem;
     font-weight: bold;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-    z-index: 1; /* Ensure it appears above the images */
-    background: rgba(0, 0, 0, 0.5); /* Optional: Adds a semi-transparent background */
+    z-index: 1; /* Ensure text appears over images */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     padding: 20px;
     border-radius: 10px;
 }
